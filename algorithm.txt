@@ -1,0 +1,19 @@
+Algorithm
+
+1.  Check is both the passed strings are valid string or not
+    1.1.    If valid:  Continue
+    1.2.    If not valid: Stop the code execution and return not a valid string
+2.  Calculate lenght of both the string and n2
+3.  Check if length of both the string is less than 15
+    3.1.    If smaller: return the addition of both the strings
+    3.2.    If greater: Continue 
+4.  Check which parametrised string is greater and call the addition function and store the result into a variable
+    4.1.     Addition function
+                4.1.1.  Calculate and store the lenght of greater size string
+                4.1.2.  Get reverse of both the strings and store them.
+                4.1.3.  Start a loop 
+                    4.1.3.1.    Loop adds the unit, tense, hundreds.....nth places of both the strings
+                    4.1.3.2.    Concats the result with previous addition result
+                    4.1.3.3.    Store then addition carry and add it in the next step.
+                4.1.4.  Return the addition final result.
+5.  Return the result variable as the function o/p 
